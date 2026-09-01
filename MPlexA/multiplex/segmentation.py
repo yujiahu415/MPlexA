@@ -52,10 +52,12 @@ def _path_identity(path:Path)->dict[str,Any]:
 
 
 class SegmentationError(MultiplexImageError):
+	'''Base error raised by tiled multiplex segmentation.'''
 
 
 
 class SegmentationCancelled(SegmentationError):
+	'''Raised internally when a requested segmentation run is cancelled.'''
 
 
 
