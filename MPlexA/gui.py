@@ -53,7 +53,7 @@ class InitialPanel(wx.Panel):
 		self.text_welcome=wx.StaticText(panel,label='Welcome to MPlexA!',style=wx.ALIGN_CENTER|wx.ST_ELLIPSIZE_END)
 		boxsizer.Add(self.text_welcome,0,wx.LEFT|wx.RIGHT|wx.EXPAND,5)
 		boxsizer.Add(0,50,0)
-		self.text_developers=wx.StaticText(panel,label='\nDeveloped by Yujia Hu\n',style=wx.ALIGN_CENTER|wx.ST_ELLIPSIZE_END)
+		self.text_developers=wx.StaticText(panel,label='\nCreated by Yujia Hu\n',style=wx.ALIGN_CENTER|wx.ST_ELLIPSIZE_END)
 		boxsizer.Add(self.text_developers,0,wx.LEFT|wx.RIGHT|wx.EXPAND,5)
 		boxsizer.Add(0,45,0)
 		modules=wx.BoxSizer(wx.HORIZONTAL)
