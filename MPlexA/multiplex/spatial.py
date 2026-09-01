@@ -15,10 +15,12 @@ SPATIAL_GRAPH_SCHEMA_VERSION=1
 
 
 class SpatialGraphError(MultiplexImageError):
+	'''Raised when a spatial graph cannot be constructed.'''
 
 
 
 class SpatialGraphCancelled(SpatialGraphError):
+	'''Raised internally when graph construction is cancelled.'''
 
 
 
