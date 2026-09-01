@@ -57,10 +57,12 @@ def _sha256_file(path:Path,block_size:int=1024*1024)->str:
 
 
 class ReconciliationError(MultiplexImageError):
+	'''Raised when tile predictions cannot be reconciled safely.'''
 
 
 
 class ReconciliationCancelled(ReconciliationError):
+	'''Raised internally when the user cancels a reconciliation run.'''
 
 
 
