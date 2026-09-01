@@ -14,10 +14,12 @@ from.image_source import open_multiplex_image
 
 
 class ROIExtractionError(RuntimeError):
+	'''Raised when an ROI extraction configuration or run is invalid.'''
 
 
 
 class ROIExtractionCancelled(ROIExtractionError):
+	'''Raised internally when the user cancels an extraction run.'''
 
 
 
