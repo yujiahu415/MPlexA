@@ -10,6 +10,7 @@ SPATIAL_VIEW_INDEX_SCHEMA_VERSION=1
 
 
 class SpatialGraphViewError(MultiplexImageError):
+	'''Raised when a spatial graph cannot be prepared or queried for display.'''
 
 
 
