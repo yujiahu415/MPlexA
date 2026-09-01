@@ -13,6 +13,7 @@ from.tiling import TileGrid
 
 
 class COCOExportError(RuntimeError):
+	'''Raised when Module 2 predictions cannot be exported as COCO JSON.'''
 
 
 
