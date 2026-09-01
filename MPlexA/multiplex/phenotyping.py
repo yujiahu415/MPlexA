@@ -17,10 +17,12 @@ PHENOTYPING_SCHEMA_VERSION=1
 
 
 class PhenotypingError(MultiplexImageError):
+	'''Raised when multiplex cell clustering cannot be completed.'''
 
 
 
 class PhenotypingCancelled(PhenotypingError):
+	'''Raised internally when clustering is cancelled.'''
 
 
 
