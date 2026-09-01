@@ -195,6 +195,7 @@ class InferenceAdapter(Protocol):
 
 
 	def infer_batch(self,images:Sequence[np.ndarray])->list[InferenceResult]:
+		'''Run inference on uint8 H x W x 3 images.'''
 
 
 
