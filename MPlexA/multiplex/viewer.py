@@ -16,6 +16,10 @@ from.tiling import TileGrid
 
 
 class ViewerError(MultiplexImageError):
+	'''Raised when a multiplex viewport cannot be rendered.'''
+
+
+
 DEFAULT_CHANNEL_COLORS:tuple[tuple[int,int,int],...]=(
 	(0,0,255),
 	(0,255,0),
