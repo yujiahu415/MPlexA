@@ -9,6 +9,7 @@ authors=[{name='Yujia Hu',email='yujiahu415@gmail.com'}]
 readme ='README.md'
 requires-python='>=3.9'
 license={text='GPL-3.0'}
+dynamic=['version']
 keywords=['multiplex imaging','spatial biology','whole-slide imaging','cell segmentation']
 classifiers=[
   'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
@@ -51,7 +52,7 @@ dependencies = [
   'python-igraph>=0.11.4',
   'leidenalg>=0.10.2',
 ]
-dynamic=['version']
+
 
 [project.optional-dependencies]
 zarr=[
