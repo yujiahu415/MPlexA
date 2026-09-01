@@ -251,10 +251,13 @@ class MultiplexImageSource(ABC):
 
 	@abstractmethod
 	def _read_selection(self,level:int,selection:tuple[Any,...])->Any:
+		'''Read a backend-specific array selection.'''
 
 
 	@abstractmethod
 	def close(self)->None:
+		'''Release open file handles and stores.'''
+
 
 
 
