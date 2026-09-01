@@ -107,10 +107,12 @@ def _crop_to_core(array:np.ndarray,read_bounds:Bounds,core_bounds:Bounds)->np.nd
 
 
 class QuantificationError(MultiplexImageError):
+	'''Raised when cell regions or marker measurements cannot be generated.'''
 
 
 
 class QuantificationCancelled(QuantificationError):
+	'''Raised internally when a Module 4 operation is cancelled.'''
 
 
 
